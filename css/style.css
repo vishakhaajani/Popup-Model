@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: burlywood;
+}
+
+#click-me {
+    height: 50px;
+    width: 180px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    position: relative;
+}
+
+.box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    transform: scale(0);
+}
+
+.box-container .box {
+    width: 350px;
+    height: 350px;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.box-container .box i {
+    font-size: 100px;
+    padding: 20px 0;
+}
+
+.box-container .box h3 {
+    font-size: 25px;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.box-container .box p {
+    font-size: 16px;
+    color: black;
+    margin: 10px 0;
+}
+
+.btn {
+    height: 35px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    font-size: 17px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#xmark {
+    font-size: 30px;
+    position: absolute;
+    top: -10px;
+    right: 10px;
+}
